@@ -12,7 +12,7 @@ $subject = "Contato - Grupo Rios Engenharia";
 $body = "Nome: ".$name. "\r\n".
         "Telefone: ".$telefone. "\r\n".
         "Email: ".$email. "\r\n".
-        "Mensagem: ".$mensagem;
+        "Mensagem: ".$message;
 
 $header = "From:gruporiosengenharia.com.br"."\r\n".
             "Reply-To:".$email."\e\n".
