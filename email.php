@@ -2,10 +2,10 @@
 
 if(isset($_POST['email']) && !empty($_POST['email'])){
 
-$nome = addslashes($_POST['nome']);
+$name = addslashes($_POST['name']);
 $telefone = addslashes($_POST['telefone']);
 $email= addslashes($_POST['email']);
-$mensagem = addslashes($_POST['message']);
+$message = addslashes($_POST['message']);
 
 $to = "contato@gruporiosengenharia.com.br";
 $subject = "Contato - Grupo Rios Engenharia";
