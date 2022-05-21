@@ -9,7 +9,7 @@ $message = addslashes($_POST['message']);
 
 $to = "contato@gruporiosengenharia.com.br";
 $subject = "Contato - Grupo Rios Engenharia";
-$body = "Nome: ".$nome. "\r\n".
+$body = "Nome: ".$name. "\r\n".
         "Telefone: ".$telefone. "\r\n".
         "Email: ".$email. "\r\n".
         "Mensagem: ".$mensagem;
@@ -20,11 +20,11 @@ $header = "From:gruporiosengenharia.com.br"."\r\n".
 
             
 if(mail($to,$subject,$body,$header)){
-    echo("$nome, O Email enviado com sucesso!");
+    echo("$name, O Email enviado com sucesso!");
     
 
 }else{
-    echo("$nome, O Email não pode ser enviado");
+    echo("$name, O Email não pode ser enviado");
 }
 }
 
